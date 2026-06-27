@@ -78,3 +78,7 @@ What is AMI ?
      -On-Demand pricing is ideal for starting without commitment. The customer can test and
        adjust based on actual usage before committing to longer-term options.
   
+      - This is the best approach. Savings Plans are ideal for critical workloads
+              that need        
+              consistent capacity and predictable pricing. Spot Instances offer significant 
+              savings for jobs that are not time-sensitive and can tolerate interruptions.
