@@ -24,13 +24,15 @@ Some additional compute services?
         good for: low-latency apps,data processing in  remote places...
         
 
+notes;
+
+      With serverless services, customers can focus solely on writing and deploying code.         AWS fully manages infrastructure, scaling, and availability, so customers do not have       to worry about managing servers or capacity.
+
+      Amazon ECR stores container images, Amazon EKS handles Kubernetes orchestration, and         AWS Fargate runs containers without server management. This combination offers              seamless orchestration with no infrastructure maintenance.
 
 
 
 
-
-
-
-
+(end of the module)
 
             
