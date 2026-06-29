@@ -60,7 +60,7 @@ Can you define Security rules that you need in order use S3?
 
 
     - S3 -> has variety of  classes with specific performance,access,cost requirements.
-      in order to address residence of data.
+      in order to address residence of data,delete them at specific period or whatever.
     Types  of classes;
       1.S3
           it's a class for storing data on cloud like storing; dynamic content,mobile ,gaming apps
@@ -111,13 +111,28 @@ Can you define Security rules that you need in order use S3?
         -serve workloads with local data residency .
         - good to maintain high performance if data will be near to the on-premises services.
 
-S3 Lifecycle pause here:
+S3 Lifecycle :
 
+    - this type we use it to automate our objects instead of manually update or doing other stuff with them using two type of actions:
+        - Transition actions🤸 :  objects transit  to another storage class.
+        - Expiration actions: objects expire + permanently deleted.
+        
+<img width="803" height="232" alt="image" src="https://github.com/user-attachments/assets/084a5f92-a94c-4b9c-bfa0-826fed504557" />
 
-
-
+    - after 30 days -> object moves from S3 Standard Storage =>Amazon S3 IA storage class.
     
+    - After 60 days in Amazon S3 IA storage -> object moves to Amazon S3 Glacier instant Retrieval class without  being accessed
+    - After spending  365 days in Amazon S3 Glacier instant Retrieval storage -> object will be deleted.
 
+ex;
+
+        - you may need to remove data from the bucket after specific time so we use S3 lifecycle.
+        - you may access data   after storing it after a long period of time so this is good for s3 lifecycle .
+
+
+    notes;
+
+        Amazon S3 Lifecycle is used create rules that automate the transition of objects            between storage classes. It can set expiration dates for objects based on defined           criteria, optimizing storage costs while maintaining access to data based on its            changing value over time.
           
 
           
