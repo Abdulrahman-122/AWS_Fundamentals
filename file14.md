@@ -132,7 +132,10 @@ ex;
 
     notes;
 
-        Amazon S3 Lifecycle is used create rules that automate the transition of objects            between storage classes. It can set expiration dates for objects based on defined           criteria, optimizing storage costs while maintaining access to data based on its            changing value over time.
+        Amazon S3 Lifecycle is used create rules that automate the transition of objects  
+        between storage classes. It can set expiration dates for objects based on defined  
+        criteria, optimizing storage costs while maintaining access to data based on its          
+        changing value over time.
           
 
           
