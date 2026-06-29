@@ -63,7 +63,7 @@ types of  Storage Gateway:
 
 # AWS Elastic disaster Recovery
 
-      -  replicates data or critical workloads in minimul time
+      -  replicates data or critical workloads in minimal time
       - it allows  physical,virtual servers during disruptions to  make recovery  or backup fast.
       - good at  healthcare where system availability is crucial.
       - you can use it to eliminate downtimes ,data loss while eliminating the costs associated with maiantaining secondary data centers.
