@@ -151,6 +151,9 @@ What is Amazon S3?
     
         3.Tape Gateway;
             = replace physical tape with virtual ones
+
+        note;
+        File Gateway provides a file interface into Amazon S3 object storage. It maintains          low-latency local access to frequently accessed data through local caching and              seamlessly integrates with existing file-based workflows.
 -----
 
 #What is Elastic disaster Recovery?
