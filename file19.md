@@ -86,6 +86,7 @@ Tier3
     these are custom frameworks especially for organizations that needs training process.
     -ML workflows:
       software library or tool that provide experienced ML environment to practice on it for ML practioners
+      provide pre-built componant to help practitioners in their learning process
       AWS frameworks like; pytorch,Tenserflow..
     -AWS ML infrastructure:
       -ML-optimized Elastic compute cloud,EMR,Emazon Elastic container service -> these tools provide high performance,flexibility for ML workloads.
