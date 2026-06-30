@@ -84,6 +84,7 @@ Benefits:
         the throughput of standard MySQL while maintaining compatibility.
         It was specifically designed to handle high transaction workloads by distributing
         I/O across multiple storage nodes.
+      - Aurora provides comparable performance to high-end commercial databases but at one-         tenth the cost, which makes it ideal for organizations looking to reduce database           costs without sacrificing performance.
 ----
 
 NoSQL databases
@@ -187,7 +188,4 @@ What is Amazon ElasticCache?
 
       note;
         Neptune provides low-latency and high-throughput performance for both read and              write operations, making it suitable for real-time applications working with                connected data.
-
-        
-
-    
+        -A key benefit of AWS DMS(database migration service) is that the source database remains fully operational              during migration, which minimizes downtime to applications.
