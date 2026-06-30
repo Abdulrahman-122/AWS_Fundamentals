@@ -100,9 +100,9 @@ NoSQL databases
 ----
 Amazon DynamoDB
 
-    DynamoDB is a fully managed NoSQL database service that provides fast and predictable      performance for both document and key-value data structures. It's a powerful and             incredibly fast database option for use cases that require a flexible schema, and is       ideal for applications that require high performance and seamless scaling.
+    - DynamoDB is a fully managed NoSQL database service that provides fast and predictable       performance for both document and key-value data structures. It's a powerful and            incredibly fast database option for use cases that require a flexible schema, and is        ideal for applications that require high performance and seamless scaling.
     
-    DynamoDB seamlessly scales alongside your data without impacting performance, which         means that you only pay for the resources that you use. It also includes built-in           security features for enhanced protection, and automatically spreads your data across        multiple servers to handle your workload.
+    - DynamoDB seamlessly scales alongside your data without impacting performance, which         means that you only pay for the resources that you use. It also includes built-in           security features for enhanced protection, and automatically spreads your data across       multiple servers to handle your workload.
     Use cases
     
     Some examples of practical use cases for DynamoDB are gaming platforms, financial            service applications, and mobile applications with global user bases.
@@ -111,15 +111,14 @@ Amazon DynamoDB
 What is in-memory cahcing?
 
     
-    An in-memory cache is a high-speed storage layer that temporarily stores frequently 
-    accessed data in a computer's main memory, or RAM. Retrieving data from RAM provides 
-    extremely fast processing and retrieval speeds, often hundreds or thousands of times 
-    faster than traditional disk-based storage systems.
+    - An in-memory cache is a high-speed storage layer that temporarily stores frequently 
+      accessed data in a computer's main memory, or RAM. Retrieving data from RAM provides 
+      extremely fast processing and retrieval speeds, often hundreds or thousands of times 
+      faster than traditional disk-based storage systems.
     
-    When applications need specific information, they first check the cache before 
-    requesting it from the original data source. This reduces the load on primary databases    and speeds up response times for end users. In-memory caches are ideal for storing          session data, API responses, database query results, and other information that             applications require repeatedly.
-
-
+    - When applications need specific information, they first check the cache before 
+      requesting it from the original data source. This reduces the load on primary               databases 
+      and speeds up response times for end users. In-memory caches are ideal for storing          session data, API responses, database query results, and other information that             applications require repeatedly.
 What is Amazon ElasticCache?
 
     =>service uses in-memory caching to fast the operation of fetching data
@@ -129,9 +128,6 @@ What is Amazon ElasticCache?
       2.High availability for recovering data if something happen
       3.replications across multi Azs
       4.Build encryption while moving data from nodes to users.
-
-
-
 ------
 # Additional Database services:
 # What is Amazon DocumentDB
