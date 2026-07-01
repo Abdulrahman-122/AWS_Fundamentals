@@ -36,5 +36,44 @@ What is DDOS attacks(distributed denial of servicec attack)?
              level, these components leverage the full capacity of the AWS Region to help 
              absorb large-scale attacks.
             
+-----
+This is how encryption working?
 
-Pause; Data encryption
+  <img width="1356" height="715" alt="image" src="https://github.com/user-attachments/assets/aa82addf-3d0e-49b4-a80e-5dac84a34afc" />
+
+    = you convert your sensitive info into encrypted info(randomized characters) when you need them =>apply decryption on top of them.
+
+Types of data encryption?
+
+  <img width="1356" height="509" alt="image" src="https://github.com/user-attachments/assets/0d70f38e-6ddc-4923-8275-b0a919be6a57" />
+
+      - Encryption at rest -> your data encrypted at your app
+      - Encryption in transit -> your data is encrypted while it's moving to the server using (SSL,TLS) certificates...
+
+      Types of AWS Data Protection?
+        1. Amazon S3;
+            - this storage contain encryption at rest at the objects that is contain.
+        2.Amazon EBS;
+            - this storage contain encryption at rest for both snapshots,volumes that related to Amazon Ec2 instances..
+        3.Amazon Dynamo DB:
+           server side encryption are enabled + stored at AWS KMS(key management system)
+        Services at AWS:
+          1. AWS Key management Service(AWS KMS)
+              this service contain and you can make keys for lock and unlock AWS servicecs like databases 
+              you can also disable them .
+              these keys called:crytographic keys (randomized characters represent your secret keys)
+          2.Amazon Macie;
+              you can monitor your sensitive data at rest to make it's safe.
+              it's using ML +automation to discover your data in Amazon S3.
+              it's good for meeting compliance .
+          3.AWS certificate manager(ACM)
+            this service is uses to make certificates(ssl,Tls) in order to make encryption in transit  while moving your data from one service to other one.
+            
+
+
+
+
+
+
+
+
