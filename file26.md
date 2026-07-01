@@ -174,6 +174,9 @@ What is AWS Trusted Advisor?
     - All of your plans will be checked.
     -helps you optimize your account at scale.
     -used to optimize cost+efficiency,security...
+note;
+
+    - Trusted Advisor would continuously evaluate and provide recommendations on            cost, security, and performance. It would also provide recommendations on best         practices.
 
 What is AWS IAM access Analyzer?
 
