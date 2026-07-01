@@ -114,5 +114,74 @@ This is how the Hierarchecy of the AWS looks like?
 
 ----
 
+Governance:
 
+What are the types of Awc Governance?  
+ 1.AWS Control Tower:
+
+      - service you use to enforce+manage governance rules for security across all the organization.
+    Benefits:
+      - uses preconfigured controls
+      - help you set up multi-account environments
+      -automation with built-in governance + integration of third-party at scale.
+      -uses to deploy apps
+-How is it working?
+    - <img width="1680" height="388" alt="image" src="https://github.com/user-attachments/assets/8f7eeba0-1f2d-41e8-968b-d34add25f4a2" />
+
+          - it see the provisioned accounts+see policy enforcement+can help you detect noncompliant resources.
+          -then we have AWS Control Tower Factory->standardizes template that prrovisioning new accounts.
+          - then we have control -> provide governance for all AWS environment
+          - then we have landing zone that contain all the stuff about AWS account like;users,OUS ,
+
+2.AWS service Catalog?
+
+    -create ,share from a curated catalog of AWS resources.
+    - you can deploy security tools for new AWS accounts so you govern it.
+    -it helps you stay agile while perfoming governance across multi-accounts.
+    uses:
+      - provion access control across multi accounts.
+      -applay access control+CI/CD.
+3.AWS License Manager:
+
+    -helps you manage your software licenses.
+    - fine-tuning your licensing costs.
+    uses;Use it to streamline license management and to simplify the Microsoft            License Mobility through Software Assurance experience. You can also use it to        automate the distribution and activation of software entitlements across AWS          accounts for end user
     
+    
+to rap up:
+
+    - AWS Control Tower:
+      -   service uses to govern a secure multi-account in AWS
+    - AWS Service Catalog:service uses to share,organize Aws services from curated catalog that you define.
+    - AWS License Manager; service helps you manage your software License.
+-----
+
+AWS Health:
+
+    - AWS Health Dashboard:
+      service shows you your account health ,..
+      using AWS Health API
+      -gives you time for events.actions..
+      -manage service health.
+<img width="1680" height="414" alt="image" src="https://github.com/user-attachments/assets/2f3d1549-ea31-43c5-a7b0-93ea8236207a" />
+
+-----
+
+What is AWS Trusted Advisor?
+<img width="1680" height="504" alt="image" src="https://github.com/user-attachments/assets/8f382e57-2f02-430f-baec-3fb44dbbdf42" />
+
+    -using this you evaluate your AWS account and look for best practice checks across all services.
+    - All of your plans will be checked.
+    -helps you optimize your account at scale.
+    -used to optimize cost+efficiency,security...
+
+What is AWS IAM access Analyzer?
+
+     -checks your fine grained of your IAM roles.   
+     - it varify , refine permissions by analyzing external access 
+     - varify that your policies match your standards.
+     Benefits:
+       - Modify permissions.
+       - Validating IAM ploicies.
+       - meet your least privilege goals.
+       - anything related to accessing your service is responsible for it lke:varify who can accesss...
