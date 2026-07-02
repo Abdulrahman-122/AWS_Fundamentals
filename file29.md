@@ -70,3 +70,61 @@ AWS services for specialized use cases:
           
               Smart irrigation systems – A rain machine that adjusts watering
               based on weather and soil conditions
+-------
+Well-Architected framework:
+
+    - Pillers of this framework:
+        - Operational Excellence;
+            - operation monitoring,continuous improvement.
+        -Security ->protect system.
+        - Reliability:
+            - emphasize recovery planning+system adaptability to meet demands.
+        -Performance Efficiency:
+        - Cost optimization
+        - sustainability
+    tools;
+        - AWS well-Architected Tool;
+            - free service that apply these pillers on your workloads.
+                - it offers ; review your workload,milestone tracking
+                - integrate with AWS identity+Access management(IAM) + APIs
+                - support team collaboration.
+                -good for architects engineer,compliance team.
+How to apply this framework on this system?
+    <img width="4917" height="2877" alt="image" src="https://github.com/user-attachments/assets/c59d9a3c-a5ca-4375-9072-05526c11971e" />
+
+        - to apply operational Excellance ;
+            -use Ec2 autoscaling -> in order to avoid rush while your system increases.
+        - to apply Security;
+            - use encryption+IAM policies
+        - to apply Reliability;
+            - use: Amazon cloudWatch in order to watch the system and automate actions
+        - to apply Performance Efficient;
+            - AWS compute Optimizer -> in order to avoid wasting resources.
+        - to apply Cost Optimization => use AWS budgets,AWS cost Explorer (to track your budgets nad take decisions..)
+        - to apply sustainability -> use AWS cost,usage report in order to report your system resources...
+
+-----
+
+Some applications on Well-architected framework?
+<img width="1680" height="525" alt="image" src="https://github.com/user-attachments/assets/7b2c0d76-54ea-4364-a771-d6873ef1a019" />
+
+    - this application is called  serverless  web backend by X-ray
+        - Amazon Api Gateway ->receives HTTP requests from the client
+        - Lambda function --> process the API through the code that you store in
+        - then store the resule or extract it from Amazon DynamoDB
+        - all of these things are traces by AWS X-Ray.
+2.
+<img width="1680" height="412" alt="image" src="https://github.com/user-attachments/assets/61944820-4836-40c6-8904-84ab5e5e516d" />
+
+        -Serverless static website with contact form;
+          - in this website -> you build a static that connect to our last architecure
+          - but here we use Simple Email serviice to send email that processed by it based              on lambda function .
+3.<img width="1680" height="709" alt="image" src="https://github.com/user-attachments/assets/d85f860c-47ee-4bfe-8a4e-0f25ba826225" />
+
+        - Customer support with callback option;
+            - calls or texts that client send to customer support are stored inside Amazon contact servicec response then directed to Amazon connect through Amazon cloudfront.
+            - then we have two ways either connect with live agent directly or
+                choose chat using Lambda function that directs you either to live agent or SMS or email....
+        
+
+    
